@@ -22,6 +22,18 @@ set(SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 set(SRC_FILES
     ${SRC_DIR}/main.cpp
+
+    ${SRC_DIR}/game.h
+    ${SRC_DIR}/game.cpp
+
+    ${SRC_DIR}/window.h
+    ${SRC_DIR}/window.cpp
+
+    ${SRC_DIR}/shader.h
+    ${SRC_DIR}/shader.cpp
+
+    ${SRC_DIR}/util/util.h
+    ${SRC_DIR}/util/types.h
 )
 
 ###############################################################################
